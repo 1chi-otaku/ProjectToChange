@@ -13,10 +13,16 @@ public:
 		this->b = b;
 		this->c = c;
 	}
+	void Print() {
+		cout << "a - " << a << endl;
+		cout << "b - " << b << endl;
+		cout << "c - " << c << endl;
+	}
 };
 
 int main() {
-	
-
+	Point obj1;
+	Point obj2(5,4,10);
+	obj1.Print();
 	return 0;
 }
