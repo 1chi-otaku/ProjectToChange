@@ -1,7 +1,17 @@
 #include <iostream>
 using namespace std;
+class Point {
+	
+
+};
+class Person {
+	string name;
+	int age;
+public:
+
+};
 int main() {
-	cout << "Ejggg";
+	
 
 	return 0;
 }
