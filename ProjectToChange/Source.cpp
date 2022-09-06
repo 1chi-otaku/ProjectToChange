@@ -17,12 +17,17 @@ class Person {
 	string name;
 	int age;
 public:
+	
 
 };
 class Student {
 	string name;
 	string age;
 public:
+	Student(string name, string age) {
+		this->name = name;
+		this->age = age;
+	}
 	Student() {
 		name = "name";
 		age = "100";
