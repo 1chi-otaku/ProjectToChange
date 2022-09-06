@@ -14,12 +14,7 @@ public:
 		this->c = c;
 	}
 };
-class Person {
-	string name;
-	int age;
-public:
 
-};
 int main() {
 	
 
