@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 class Point {
-	
 	int a, b, c;
 public:
 	Point() {
@@ -17,6 +16,26 @@ public:
 		cout << "a - " << a << endl;
 		cout << "b - " << b << endl;
 		cout << "c - " << c << endl;
+	}
+};
+class Person {
+	string name;
+	int age;
+public:
+	
+
+};
+class Student {
+	string name;
+	string age;
+public:
+	Student(string name, string age) {
+		this->name = name;
+		this->age = age;
+	}
+	Student() {
+		name = "name";
+		age = "100";
 	}
 };
 
